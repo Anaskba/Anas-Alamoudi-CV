@@ -1000,7 +1000,12 @@
     }, { threshold: 0.4 });
 
     document.querySelectorAll('section[id]').forEach(s => navObserver.observe(s));
-    // Back to top button
+  </script>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <script>
     const backBtn = document.getElementById('backToTop');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 400) {
@@ -1013,11 +1018,6 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   </script>
-
-  <!-- BACK TO TOP BUTTON -->
-  <button id="backToTop" title="Back to top">
-    ↑
-  </button>
 
   <style>
     #backToTop {
