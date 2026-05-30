@@ -8,18 +8,18 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy: #0f2340;
-      --blue: #1a3a5c;
-      --accent: #2e7dc5;
-      --accent-light: #5ba3e0;
+      --navy: #1a0505;
+      --blue: #2d0a0a;
+      --accent: #b52b2b;
+      --accent-light: #d95f5f;
       --gold: #c9a84c;
-      --text: #1e2d3d;
-      --muted: #5a6a7a;
-      --bg: #f5f7fa;
+      --text: #1a0505;
+      --muted: #7a5555;
+      --bg: #fdf5f5;
       --white: #ffffff;
-      --border: #dde4ed;
+      --border: #f0d8d8;
       --card: #ffffff;
-      --timeline-dot: #2e7dc5;
+      --timeline-dot: #b52b2b;
     }
 
     html { scroll-behavior: smooth; }
@@ -36,7 +36,7 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 100;
-      background: rgba(15, 35, 64, 0.97);
+      background: rgba(26, 5, 5, 0.97);
       backdrop-filter: blur(8px);
       display: flex;
       justify-content: space-between;
@@ -73,7 +73,7 @@
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
-      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 60%, #1e4d7a 100%);
+      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 60%, #4a0f0f 100%);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -87,7 +87,7 @@
       position: absolute;
       width: 600px; height: 600px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(46,125,197,0.18) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(181,43,43,0.22) 0%, transparent 70%);
       top: -100px; right: -100px;
     }
 
@@ -369,7 +369,7 @@
     }
 
     .achievements-box {
-      background: linear-gradient(135deg, #f0f6ff 0%, #e8f2fd 100%);
+      background: linear-gradient(135deg, #fff0f0 0%, #fde8e8 100%);
       border-left: 3px solid var(--gold);
       border-radius: 0 8px 8px 0;
       padding: 16px 20px;
@@ -438,7 +438,7 @@
 
     .skill-card:hover {
       transform: translateY(-3px);
-      border-color: rgba(46,125,197,0.5);
+      border-color: rgba(181,43,43,0.5);
     }
 
     .skill-icon {
@@ -480,7 +480,7 @@
     }
 
     .cert-card:hover {
-      box-shadow: 0 4px 16px rgba(46,125,197,0.12);
+      box-shadow: 0 4px 16px rgba(181,43,43,0.14);
       border-color: var(--accent-light);
     }
 
@@ -548,7 +548,7 @@
     }
 
     .edu-tag {
-      background: #e8f2fd;
+      background: #fde8e8;
       color: var(--accent);
       border-radius: 100px;
       padding: 4px 14px;
